@@ -2,4 +2,4 @@
 FROM ngsxfem/ngsxfem
 
 # 安装额外的 Python 包
-RUN pip install --no-cache-dir sympy tqdm
+RUN pip install --no-cache-dir sympy tqdm pytz
