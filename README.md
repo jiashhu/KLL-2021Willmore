@@ -1,14 +1,8 @@
 # ngs-esfem
 
-This repository contains extensions of NGSolve for **ESFEM**, PDE-based geometric flows, and related numerical experiments. It also provides geometric utilities and visualization tools for working with 1D and 2D meshes, curves, and surfaces.
-
-
-## Features
-
-- **ESFEM modules:** ALE methods, Willmore flow, mean curvature flow, ODE solvers.
-- **Geometric tools:** 1D and 2D mesh generation, curves, rotations, and discrete surfaces.
-- **Visualization:** VTK export for rendering results.
-- **Examples:** `esfem/_applications` contains ready-to-run flow simulations.
+This repository contains the reproduction code of 
+[A convergent evolving finite element algorithm for Willmore flow of closed surfaces](https://www.researchgate.net/publication/355493657_A_convergent_evolving_finite_element_algorithm_for_Willmore_flow_of_closed_surfaces)
+(KLL 2021) for the Willmore flow.
 
 ---
 
@@ -34,25 +28,8 @@ docker build -t ngs-esfem .
 
 ## Usage
 
-* Run example flows:
+* using `zsh run-image.sh` to activate the jupyter notebook
+* notebooks are in the ./work sub-directory
+* Open PFEM-KLL-Willmore-PerturbedTorus.ipynb to run the example of perturbated torus
+* Open PFEM-KLL-Willmore-RBC2.ipynb to run the example of red blood cell shape surface
 
-```bash
-python esfem/_applications/mcf_flow.py
-python esfem/_applications/willmore_flow.py
-```
-
-* Import modules in your scripts:
-
-```python
-from esfem.ale import ALEGeometry
-from geometry.mesh_1d import Mesh1D
-from viz.vtk_out import write_vtk
-```
-
----
-
-## Contributing
-
-* Use **Git submodules** for external dependencies if needed.
-* Follow PEP8 for Python code style.
-* Push changes to your fork and submit a pull request.
