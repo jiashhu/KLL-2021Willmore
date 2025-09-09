@@ -11,14 +11,14 @@ This repository contains the reproduction code of
 1. Clone the repository:
 
 ```bash
-git clone --recurse-submodules https://github.com/jiashhu/ngs-esfem.git
-cd ngs-esfem
+git clone --recurse-submodules https://github.com/jiashhu/KLL-2021Willmore.git
+cd KLL-2021Willmore
 ```
 
 2. Recommended: Use **Docker** for a reproducible environment:
 
 ```bash
-docker build -t ngs-esfem .
+docker build -t my-ngsxfem .
 ./run-image.sh
 ```
 
