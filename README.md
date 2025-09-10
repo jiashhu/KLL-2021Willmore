@@ -28,7 +28,18 @@ docker build -t my-ngsxfem .
 
 ## Usage
 
-* using `zsh run-image.sh` to activate the jupyter notebook
+- On **Mac/Linux** (with zsh):  
+  ```bash
+  zsh run-image.sh build
+  ```
+  This will build the image and start the Jupyter Notebook.
+
+- On **Windows** (with PowerShell):  
+  ```powershell
+  .\run-image.ps1 build
+  ```
+  This will build the image and start the Jupyter Notebook.
+
 * notebooks are in the ./work sub-directory
 * Open PFEM-KLL-Willmore-PerturbedTorus.ipynb to run the example of perturbated torus
 * Open PFEM-KLL-Willmore-RBC2.ipynb to run the example of red blood cell shape surface
