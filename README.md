@@ -1,8 +1,16 @@
 # ngs-esfem
 
-This repository contains the reproduction code of 
-[A convergent evolving finite element algorithm for Willmore flow of closed surfaces](https://www.researchgate.net/publication/355493657_A_convergent_evolving_finite_element_algorithm_for_Willmore_flow_of_closed_surfaces)
-(KLL 2021) for the Willmore flow.
+This repository contains the reproduction code for  
+[A convergent evolving finite element algorithm for Willmore flow of closed surfaces](https://www.researchgate.net/publication/355493657_A_convergent_evolving_finite_element_algorithm_for_Willmore_flow_of_closed_surfaces)  
+(Kovács, Li, Lubich, 2021), which addresses the Willmore flow of closed surfaces.
+
+If you use this code, please cite the following paper:
+
+B. Kovács, B. Li, and C. Lubich,  
+A convergent evolving finite element algorithm for Willmore flow of closed surfaces,  
+Numerische Mathematik, 149(3), 2021, pp. 595–643.
+
+---
 
 ---
 
